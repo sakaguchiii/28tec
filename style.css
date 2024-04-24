@@ -1,0 +1,302 @@
+body {
+    font-family: 'Zen Gothic New' , sans-serif;
+    color: #f9f1e7;
+    background-color: #3a3a3a;
+}
+
+header{
+    font-weight: 700;
+    /* position: absoluteを入れると横幅が狭くなるのでWidth 100%を入れる */
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+header .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+}
+header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+header ul li:hover{
+    color: #2cb67d;
+    transition-duration: 0.4s;
+}
+
+.section1{
+    background-image: url(../images/icon2.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    /* vhは画面いっぱい */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.section1 .filter{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.section1 .container{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.section1 .heading {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: cyan;
+}
+.section1 h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.section1 .text {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.section1 a {
+font-size: 16px;
+font-weight: 700;
+padding: 16px 40px 20px 40px;
+display: inline-block;
+background-color: #7f5af0;
+border-radius: 6px;
+letter-spacing: 2px;
+/* 時間をかけて色を変える */
+transition-duration: 0.4s;
+}
+
+/* ボタン押した時に色が変化 */
+.section1 a:hover {
+    background-color: #2cb67d;
+}
+
+.add-siteFooter {
+    padding-top: 60px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0;
+}
+.add-siteFooter_logo {
+    text-align:center;
+}
+.add-siteFooter_logo > a {
+    display: inline-block;
+}
+.add-siteFooter_sns {
+    margin-top: 42px;
+    margin-bottom: 60px;
+}
+
+.add-siteFooter__copyright {
+    padding: 30px 0 40px;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border-top: 1px solid #fff;
+}
+
+.add-siteFooter_sns > ul {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    margin-bottom: 45px;
+    background-color: #3a3a3a;
+}
+.section2 .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 48px;
+}
+.section2 .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transform: translateY(-48px);
+    z-index: 2;
+    position: relative;
+}
+.section2 .module{
+    background-color: #f4f4f4;
+    width: 32%;
+    color: #16161a;
+    padding: 20px;
+    border-radius: 15px;
+}
+.section2 span{
+    color: rgb(225, 72, 72);
+    font-weight: 700;
+}
+.section2 img{
+    width: 56px;
+    height: 56px;
+}
+.section2 .module_title{
+    padding-top: 30px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.section2 hr {
+    border: solid 2px #2cb67d;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 48px;
+}
+.section2 .module_subtitle{
+    margin-top: 20px;
+}
+
+.section3{
+    padding-top: 45px;
+    margin-bottom: 60px;
+    background-color: #3a3a3a; 
+}
+.section3 .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 48px;
+}
+.section3 .row{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .module{
+    width: 600px;
+    height: 250px;
+    margin: 50px 50px auto;
+    position: left;
+    border-radius: 15px;
+}
+.section3 h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section3 .text{
+    margin: auto;
+}
+
+.section3 .module hr{
+    border: solid 2px #2cb67d;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+.section3 .module img{
+    width: 150px;
+    height: 300px;
+    transform: translateY(-60px);
+    ;
+}
+.stage1{
+    background-image: url(../images/spacePicture.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    /* vhは画面いっぱい */
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.stage1 .filter{
+    width: 100%;
+    height: 30%;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.stage1 .container{
+    width: 90%;
+    max-width: 1080px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.stage1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: rgb(176, 169, 23);
+    font-family: "Nico Moji";
+}
+.stage1 h1:hover{
+    color: rgb(37, 20, 231);
+    /* 時間をかけて色を変える */
+    transition-duration: 0.4s;
+}
+.stage2{
+    background-image: url(../images/space.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    /* vhは画面いっぱい */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.stage2 .filter{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
+.stage2 .container{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+}
+.stage2 li{
+    color: rgb(176, 169, 23);
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+.stage2 li:hover{
+    color: rgb(191, 253, 3);
+     /* 時間をかけて色を変える */
+     transition-duration: 0.4s;
+}
