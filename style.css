@@ -36,7 +36,7 @@ header ul li:hover{
 }
 
 .section1{
-    background-image: url(../images/icon2.jpg);
+    background-image: url(https://github.com/sakaguchiii/28tec/blob/main/icon2.jpg?raw=true);
     background-position: center bottom;
     background-size: cover;
     /* vhは画面いっぱい */
@@ -222,7 +222,7 @@ transition-duration: 0.4s;
     ;
 }
 .stage1{
-    background-image: url(../images/spacePicture.jpg);
+    background-image: url(https://github.com/sakaguchiii/28tec/blob/main/spacePicture.jpg?raw=true);
     background-position: center bottom;
     background-size: cover;
     /* vhは画面いっぱい */
@@ -263,7 +263,7 @@ transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 .stage2{
-    background-image: url(../images/space.jpg);
+    background-image: url(https://github.com/sakaguchiii/28tec/blob/main/space.jpg?raw=true);
     background-position: center bottom;
     background-size: cover;
     /* vhは画面いっぱい */
